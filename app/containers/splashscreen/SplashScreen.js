@@ -1,14 +1,17 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { View, Image, StatusBar } from 'react-native'
 import styles from './SplashScreenStyle'
+
+const logoImageSource = require('../../resources/images/logoPrimary.png')
 
 export default class SplashScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar backgroundColor={styles.container.backgroundColor} />
         <View style={styles.logo}>
           {/* You will probably want to insert your logo here */}
-          <Text>LOGO</Text>
+          <Image source={logoImageSource} />
         </View>
       </View>
     )

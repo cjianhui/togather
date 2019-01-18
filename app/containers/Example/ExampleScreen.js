@@ -2,8 +2,8 @@ import React from 'react'
 import { Platform, Text, View, Button } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
-import ExampleActions from 'App/Stores/Example/Actions'
-import { isHot } from 'App/Stores/Example/Selectors'
+import ExampleActions from 'app/stores/Example/Actions'
+import { isHot } from 'app/stores/Example/Selectors'
 import Style from './ExampleScreenStyle'
 
 /**

@@ -1,6 +1,6 @@
 import { takeLatest } from 'redux-saga/effects'
-import { ExampleTypes } from 'App/Stores/Example/Actions'
-import { StartupTypes } from 'App/Stores/Startup/Actions'
+import { ExampleTypes } from 'app/stores/Example/Actions'
+import { StartupTypes } from 'app/stores/Startup/Actions'
 import { fetchTemperature } from './ExampleSaga'
 import { startup } from './StartupSaga'
 

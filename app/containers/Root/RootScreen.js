@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { createStackNavigator } from 'react-navigation'
-import NavigationService from 'App/Services/NavigationService'
+import NavigationService from 'app/services/NavigationService'
 import { View } from 'react-native'
 import styles from './RootScreenStyle'
-import ExampleScreen from 'App/Containers/Example/ExampleScreen'
-import SplashScreen from 'App/Containers/SplashScreen/SplashScreen'
+import ExampleScreen from 'app/containers/Example/ExampleScreen'
+import SplashScreen from 'app/containers/splashscreen/SplashScreen'
 import { connect } from 'react-redux'
-import StartupActions from 'App/Stores/Startup/Actions'
+import StartupActions from 'app/stores/Startup/Actions'
 
 /**
  * The root screen contains the application's navigation.

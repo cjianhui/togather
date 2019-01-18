@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native'
-import App from 'App/App'
+import App from './app/App'
 
 AppRegistry.registerComponent('Togather', () => App)

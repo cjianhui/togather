@@ -1,5 +1,5 @@
 import { create } from 'apisauce'
-import { Config } from 'App/Config'
+import { Config } from 'app/config'
 
 /**
  * This is an example of a service that connects to a 3rd party API.
@@ -9,7 +9,7 @@ import { Config } from 'App/Config'
 
 const weatherApiClient = create({
   /**
-   * Import the config from the App/Config/index.js file
+   * Import the config from the app/config/index.js file
    */
   baseURL: Config.API_URL,
   headers: {

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
-import Colors from 'App/Theme/Colors'
-import ApplicationStyles from 'App/Theme/ApplicationStyles'
+import Colors from 'app/theme/Colors'
+import ApplicationStyles from 'app/theme/ApplicationStyles'
 
 export default StyleSheet.create({
   container: {
@@ -8,14 +8,13 @@ export default StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: Colors.primary,
+    backgroundColor: Colors.white,
   },
   logo: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 70,
-    width: 70,
-    backgroundColor: 'white',
+    height: 500,
+    width: 500,
   },
 })
