@@ -10,4 +10,8 @@ export default {
       flex: 1,
     },
   },
+  transparentHeaderStyle: {
+    borderBottomWidth: 0,
+    elevation: 0,
+  },
 }

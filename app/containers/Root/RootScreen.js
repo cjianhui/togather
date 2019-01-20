@@ -3,8 +3,10 @@ import { createStackNavigator } from 'react-navigation'
 import NavigationService from 'app/services/NavigationService'
 import { View } from 'react-native'
 import styles from './RootScreenStyle'
-import ExampleScreen from 'app/containers/Example/ExampleScreen'
 import SplashScreen from 'app/containers/splashscreen/SplashScreen'
+import Welcome from 'app/containers/Welcome'
+import Login from 'app/containers/Login'
+
 import { connect } from 'react-redux'
 import StartupActions from 'app/stores/Startup/Actions'
 
@@ -20,7 +22,8 @@ const AppNav = createStackNavigator(
     SplashScreen: SplashScreen,
     // The main application screen is our "ExampleScreen". Feel free to replace it with your
     // own screen and remove the example.
-    MainScreen: ExampleScreen,
+    MainScreen: Welcome,
+    Login: Login,
   },
   {
     // By default the application will show the splash screen
